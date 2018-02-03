@@ -1,3 +1,4 @@
+package com.samples;
 import java.io.Serializable;
 
 public class EmployeeSerialId implements Serializable {

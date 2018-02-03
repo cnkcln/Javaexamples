@@ -2,7 +2,7 @@ package com.java8.examples;
 
 public class Factorial {
 	public static void main(String[] args) {
-		int fact = 1, n = 5, j;
+		int fact = 1,  j;
 		for (j = 1; j <= 5; j++) {
 			fact = fact * j;
 		}

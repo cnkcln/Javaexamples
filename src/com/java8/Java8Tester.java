@@ -1,11 +1,7 @@
 package com.java8;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.IntSummaryStatistics;
 import java.util.List;
-import java.util.Random;
-import java.util.stream.Collectors;
 
 public class Java8Tester {
 	   public static void main(String args[]){
@@ -28,12 +24,12 @@ public class Java8Tester {
 	      //Eliminate empty string and join using comma.
 	      //String mergedString = getMergedStringUsingJava7(strings,", ");
 	   //   System.out.println("Merged String: " + mergedString);
-	      List<Integer> numbers = Arrays.asList(3, 2, 2, 3, 7, 3, 5);
+	      //List<Integer> numbers = Arrays.asList(3, 2, 2, 3, 7, 3, 5);
 	      
 	      //get list of square of distinct numbers
 	     // List<Integer> squaresList = getSquares(numbers);
 	      //System.out.println("Squares List: " + squaresList);
-	      List<Integer> integers = Arrays.asList(1,2,13,4,15,6,17,8,19);
+	     /// List<Integer> integers = Arrays.asList(1,2,13,4,15,6,17,8,19);
 			
 	      //System.out.println("List: " +integers);
 	     /* System.out.println("Highest number in List : " + getMax(integers));
@@ -43,7 +39,7 @@ public class Java8Tester {
 	      System.out.println("Random Numbers: ");*/
 			
 	      //print ten random numbers
-	      Random random = new Random();
+	      //Random random = new Random();
 			
 	     /* for(int i=0; i < 10; i++){
 	         System.out.println(random.nextInt());

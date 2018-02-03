@@ -1,8 +1,6 @@
 package com.sorting.examples;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
-import java.util.Collections;
 
 public class SoringArrayExample {
 	public static void main(String[] args) {
